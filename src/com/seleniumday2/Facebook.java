@@ -12,9 +12,11 @@ public class Facebook {
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();
 		WebElement txtuserName = driver.findElement(By.id("email"));
-		txtuserName.sendKeys("Geo Mukesh");
+		txtuserName.sendKeys("9715814953");
 		WebElement txtPass = driver.findElement(By.id("pass"));
-		txtPass.sendKeys("bhjhhgd");
+		txtPass.sendKeys("Wakeup123");
+		WebElement btnLogin = driver.findElement(By.name("login"));
+		btnLogin.click();
 		
 		
 	}
